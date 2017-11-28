@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hpfolio.myfirstapplication.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#c6c8d1"
+        android:text="@string/btn_send"
+        android:textColor="#009" />
+
+    <TextView
+        android:id="@+id/tvResend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSend"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+</RelativeLayout>
